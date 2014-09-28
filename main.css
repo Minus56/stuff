@@ -1,0 +1,146 @@
+/***************************
+****************************
+Navigation Bar
+****************************
+***************************/
+
+.navbar-fixed-top {
+    background-color: #455660;
+    text-align: center;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  color:#FFFFFF;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav ul {
+  display: inline;
+}
+
+/***************************
+****************************
+Frontpage
+****************************
+***************************/
+.jumbotron {
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(background.jpg)
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #FFFFFF;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.news {
+    background-color: #FFFFFF;
+}
+
+.news h2 {
+    color: #455660;
+    font-size: 24px;
+}
+
+.news p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+.learn-more {
+  background-color: #455660;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFFFFF
+}
+
+.learn-more p {
+    color: #FFFFFF
+}
+
+
+/***************************
+****************************
+dex
+****************************
+***************************/
+.coming-soon {
+  margin-top: 50px
+}
+
+/*******
+dextable
+*******/
+.dextable {
+  border-collapse:collapse;
+  border-spacing:0;
+  border-color:#ccc;
+  border:none;
+  
+}
+
+.dextable td {
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  padding:10px 5px;
+  border-style:solid;
+  border-width:0px;
+  overflow:hidden;
+  word-break:normal;
+  border-color:#ccc;
+  color:#333;
+  background-color:#fff;
+}
+
+.dextable th {
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  font-weight:normal;
+  padding:10px 5px;
+  border-style:solid;
+  border-width:0px;
+  overflow:hidden;
+  word-break:normal;
+  border-color:#ccc;
+  color:#333;
+  background-color:#f0f0f0;
+}
+
+.dextable .title {
+  background-color:#455660;
+  color:#ffffff
+}
+
+.dextable .tg-i0og {
+  color:#000000
+}
+
+.dextable .tg-1w5t {
+  background-color:#f9f9f9;
+  color:#000000
+}
